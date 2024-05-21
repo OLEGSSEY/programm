@@ -35,8 +35,6 @@ const start = async () => {
         FOREIGN KEY (role) REFERENCES Roles(role)
     )`
 
-    //запустить в первый раз и больше не запускать
-    //чтобы добавить роли в таблицу ролей
 
     // await sql`insert into Roles(role) values('USER')`
     // await sql`insert into Roles(role) values('ADMIN')`
