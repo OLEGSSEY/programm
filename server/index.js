@@ -41,7 +41,7 @@ const start = async () => {
 
   
     app.listen(PORT, () => {
-        console.log(`СЕРВАК ФУРЫЧИТ ТУТ http://localhost:${PORT}`);
+        console.log(`Сервер запущен тут http://localhost:${PORT}`);
     })
 }
 
