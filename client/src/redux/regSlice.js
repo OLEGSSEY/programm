@@ -56,7 +56,7 @@ export const regThunk = createAsyncThunk("regThunk", async (data, { rejectWithVa
     }
 })
 
-// Action creators are generated for each case reducer function
+
 export const { reset } = regSlice.actions
 
 export default regSlice.reducer
