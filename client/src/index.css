@@ -3,3 +3,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 400px) {
+
+header nav, {
+        float: left;
+        clear: left;
+        margin: 0 0 10px; 
+        width: 100%;
+}    
+header nav li {
+        margin: 0;
+        background: #ccc;
+        display: block;
+        margin-bottom: 3px;
+}
+header nav a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+}
