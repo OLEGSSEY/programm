@@ -73,7 +73,7 @@ export const loginThunk = createAsyncThunk("logThunk", async (data, { rejectWith
     }
 })
 
-// Action creators are generated for each case reducer function
+
 export const { logOut } = authSlice.actions
 
 export default authSlice.reducer
