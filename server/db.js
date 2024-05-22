@@ -1,9 +1,9 @@
 import postgres from 'postgres'
 
 export const sql = postgres({
-    host: 'localhost',
+    host: '',
     port: 5432,
-    db: 'users',
-    username: 'postgres',
-    password: '123456'
+    db: '',
+    username: '',
+    password: ''
 })
